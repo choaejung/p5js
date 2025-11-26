@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P5.js 과제 모음</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f6f6f8;
+      padding: 40px;
+      margin: 0;
+      text-align: center;
+    }
+    h1 { margin-bottom: 10px; }
+    p { color: #444; margin-bottom: 40px; }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      transition: 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-6px);
+      box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+    }
+    a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      font-size: 18px;
+    }
+  </style>
+</head>
+<body>
+  <h1>P5.js 과제 모음</h1>
+  <p>과제 1, 4 / 2, 3 순서로 구성된 페이지입니다.</p>
+
+  <div class="grid">
+    <div class="card"><a href="/p5js/project1/index.html">project1</a></div>
+    <div class="card"><a href="/p5js/project4/index.html">project4</a></div>
+    <div class="card"><a href="/p5js/project2/index.html">project2</a></div>
+    <div class="card"><a href="/p5js/project3/index.html">project3</a></div>
+  </div>
+</body>
+</html>
